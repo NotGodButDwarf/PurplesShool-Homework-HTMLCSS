@@ -1,4 +1,7 @@
-html {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     color: #fff;
     font-weight: 400;
@@ -13,42 +16,83 @@ a {
     color: #fff;
 }
 
-h1 {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 38px;
-}
-
 p {
     font-size: 16px;
     line-height: 30px;
 }
 
-.navLink {
+.header {
+    padding: 70px 180px;
+}
+
+.header-nav-ul {
+    list-style: none;
+}
+
+.header-nav-ul-li {
     text-decoration: none;
 }
 
-.articleInfo,
-.articlePost {
-    font-size: 14px;
-    opacity: 0.6;
+.header-form-search {
+    background: rgba(31, 41, 55, 0.6);
+    border-radius: 100px;
+    width: 224px;
+    height: 40px;
+    padding: 10px;
 }
 
-.articleAuthor {
+.article-h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+.article-header-div {
+    font-size: 14px;
+    opacity: 0.6;
+    margin-bottom: 15px;
+}
+
+.article-header-div-a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.article-header-address {
+    margin-bottom: 30px;
+}
+
+.article-header-spanAuthor {
     font-size: 16px;
     line-height: 28px;
 }
 
-.articlePost {
+.article-header-spanPost {
     line-height: 28px;
+    font-size: 14px;
+    opacity: 0.6;
 }
 
-.articleIntro {
+.article-img {
+    margin-bottom: 70px;
+}
+
+.article-section-p-Intro {
     font-size: 20px;
     line-height: 32px;
 }
 
-.footerInfo {
+.article-p,
+.article-section-p-Intro {
+    margin-bottom: 30px;
+}
+
+.footer {
+    padding: 70px 0px;
+}
+
+.footer-p {
     line-height: 28px;
     opacity: 0.6;
 }
