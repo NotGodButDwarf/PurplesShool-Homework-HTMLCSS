@@ -68,10 +68,19 @@ footer {
     margin: 0px 0px 50px 0px;
 }
 
-.heroButton {
+#heroButton {
     border: 1px solid #4262ff;
     border-radius: 32px;
-    background: #4262ff;
+    background-color: #4262ff;
+    padding: 10px;
+    color: #fff;
+    transition: background-color 1s, border-radius 2s;
+}
+
+#heroButton:hover {
+    background-color: #162da1;
+    cursor: pointer;
+    border-radius: 50%;
 }
 
 .section_h2 {
