@@ -10,20 +10,26 @@
 
 <body>
     <main>
-        <h1>Регистрация</h1>
-        <div>
-            <span>Уже есть аккаунт?</span>
-            <span><a href="#">Войти</a></span>
-        </div>
-        <form action="#" method="post">
-            <input type="text" name="company" placeholder="Моя компания">
-            <input type="text" name="firstName" placeholder="Имя">
-            <input type="text" name="lastName" placeholder="Фамилия">
-            <input type="email" name="email" placeholder="E-mail">
-            <button type="submit">Зарегистрироваться</button>
-            <input type="checkbox" name="agreement" id="agreement">
-            <label for="agreement">Я прочитал и принимаю <a href="#">Условия использования</a></label>
-        </form>
+        <section class="main-section">
+            <h1>Регистрация</h1>
+            <div class="main-section-div">
+                <span>Уже есть аккаунт?</span>
+                <span><a href="#">Войти</a></span>
+            </div>
+            <form action="#" method="post" class="main-section-form">
+                <input class="main-section-form-inputtext" type="text" name="company" placeholder="Моя компания">
+                <div class="form-row">
+                    <input class="main-section-form-inputtext" type="text" name="firstName" placeholder="Имя">
+                    <input class="main-section-form-inputtext" type="text" name="lastName" placeholder="Фамилия">
+                </div>
+                <input class="main-section-form-inputtext" type="email" name="email" placeholder="E-mail">
+                <button class="main-section-form-button" type="submit">Зарегистрироваться</button>
+                <div class="form-row">
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label for="agreement">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+                </div>
+            </form>
+        </section>
     </main>
 </body>
 
