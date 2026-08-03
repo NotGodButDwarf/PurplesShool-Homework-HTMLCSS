@@ -1,9 +1,16 @@
-html {
+* {
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    margin: 0px;
+nav {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+    padding: 0px 40px;
 }
 
 h1,
@@ -20,10 +27,6 @@ p {
     font-size: 18px;
 }
 
-ul {
-    margin: 0;
-}
-
 a {
     font-weight: 400;
     font-size: 16px;
@@ -32,23 +35,41 @@ a {
 }
 
 section {
+    max-width: 1200px;
+    margin: 0 auto;
     margin-bottom: 120px;
+    padding: 0 40px;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+form+p {
+    font-size: 14px;
+    color: #050038;
 }
 
 footer {
     background-color: #050038;
     color: #fff;
-    padding: 47px 0px
+    padding: 47px 40px
 }
 
 .header {
     margin-bottom: 60px;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .header_list {
-    padding-left: 0px;
+    display: flex;
+    flex-flow: row wrap;
     list-style: none;
-    padding: 33px 0px;
+    padding: 33px 50px;
+    gap: 34px;
 }
 
 .header_list_item {
@@ -56,11 +77,18 @@ footer {
 }
 
 .section_hero {
-    margin-bottom: 128px;
+    display: flex;
+    gap: 76px;
 }
 
 .section_hero_h1 {
     margin-bottom: 17px;
+}
+
+.section-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 }
 
 .heroText {
@@ -68,19 +96,43 @@ footer {
     margin: 0px 0px 50px 0px;
 }
 
+#email {
+    border: 1px solid #9b99af;
+    border-radius: 32px;
+    width: 440px;
+    height: 48px;
+}
+
 #heroButton {
     border: 1px solid #4262ff;
     border-radius: 32px;
+    width: 440px;
+    height: 51px;
     background-color: #4262ff;
     padding: 10px;
     color: #fff;
-    transition: background-color 1s, border-radius 2s;
+    font-size: 18px;
+    transition: background-color 1s;
 }
 
 #heroButton:hover {
     background-color: #162da1;
     cursor: pointer;
-    border-radius: 50%;
+}
+
+.container-logos {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-section {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 115px;
 }
 
 .section_h2 {
@@ -108,11 +160,17 @@ footer {
     content: url(img/CheckFrame.svg);
 }
 
-.footer_list {
-    list-style-type: none;
-    padding: 0;
+.footer-div {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
 }
 
 .footer_link {
     color: #fff;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
 }
