@@ -10,9 +10,12 @@
 
 <body>
     <header class="header">
-        <nav>
+        <nav class="header-nav">
             <ul class="header-nav-ul">
-                <li><a href="#no_scroll" class="header-nav-ul-li">Мой блог</a></li>
+                <li>
+                    <div class="avatar-img">В</div>
+                    <a href="#no_scroll" class="header-nav-ul-li">Мой блог</a>
+                </li>
                 <li><a href="#no_scroll" class="header-nav-ul-li">HTML и CSS</a></li>
                 <li><a href="#no_scroll" class="header-nav-ul-li">Frontend</a></li>
                 <li><a href="#no_scroll" class="header-nav-ul-li">Backend</a></li>
@@ -23,19 +26,22 @@
         </nav>
     </header>
     <main>
-        <article>
-            <header>
+        <article class="article">
+            <header class="article-header">
                 <div class="article-header-div">
                     <a class="article-header-div-a" href="#">FRONTEND</a> <time datetime="2024-05-12">12 мая
                         2024</time></span>
                 </div>
                 <h1 class="article-h1">Теория цвета - Как цвет влияет на поведение потребителей</h1>
                 <address class="article-header-address">
-                    <img src="./img/Ellipse 1.png" alt="Автор статьи">
-                    <span class="article-header-spanAuthor">Наталья Васильева</span>
-                    <span class="article-header-spanPost">Разработчик</span>
+                    <img src="./img/Ellipse 1.png" alt="Автор статьи" width="50" height="50">
+                    <div class="author-div">
+                        <span class="article-header-spanAuthor">Наталья Васильева</span>
+                        <span class="article-header-spanPost">Разработчик</span>
+                    </div>
                 </address>
             </header>
+
             <section class="article-section">
                 <img src="./img/Rectangle 181.png" alt="Главная картинка статьи" class="article-img">
                 <p class="article-section-p-Intro">Теория цвета — это особенности эмоционального восприятия человеком
@@ -61,6 +67,7 @@
                     положительную или отрицательную оценку товару, основываясь только на его цвете.
                 </p>
             </section>
+
         </article>
     </main>
     <footer class="footer">
