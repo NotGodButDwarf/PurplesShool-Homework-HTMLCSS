@@ -1,0 +1,56 @@
+:root {
+    --layout-width: 1448px;
+
+    --fz-base-sm: 15px;
+    --fz-base: 17px;
+    --fz-base-lg: 18px;
+    --fz-lead: 24px;
+    --fz-heading-lg: 48px;
+    --fz-heading-md: 40px;
+    --fz-heading-sm: 32px;
+
+    --br-card: 8px;
+    --br-block: 16px;
+    --br-btn: 34px;
+
+    --color-text-white: #fff;
+    --color-text-white-80: rgba(255, 255, 255, 0.8);
+    --color-text-white-60: rgba(255, 255, 255, 0.6);
+    --color-text-white-70: rgba(255, 255, 255, 0.7);
+    --color-text-white-50: rgba(255, 255, 255, 0.5);
+    --color-text-black: #000000;
+    --color-text-dark: #4e5d7c;
+    --color-text-dark-50: rgba(78, 93, 124, 0.5);
+
+    --color-hr-8: rgba(78, 93, 124, 0.08);
+    --color-hr-16: rgba(255, 255, 255, 0.16);
+
+    --color-bg-white: #fff;
+    --color-bg-primary: #357efe;
+    --color-bg-accent: #ff6536;
+
+    --color-bg-tag-green: #1abc9c;
+    --color-bg-tag-gold: #ffc736;
+
+    --bs-card: 0 0 32px 0 rgba(78, 93, 124, 0.16);
+}
+
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-bg-white);
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.weight-800 {
+    font-weight: 800;
+}
